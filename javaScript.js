@@ -20,7 +20,29 @@ deleteMessage.addEventListener('click', () => {
 })
 
 sendMessage.addEventListener('click', () => {  
+    // CRIAÇÃO DO BLOCO QUE DEFINE A MENSAGEM
+    // let divMassageblock = document.createElement('div')
+    // massageblock.setAttribute('class','massage-block')
+
+    // let divMessage = document.createElement('div')
+    // massageblock.setAttribute('class','massage')
+
+    // let divMessageButtons = document.createElement('div')
+    // massageblock.setAttribute('class','message-buttons')
+
+    // let buttonMessageEdit = document.createElement('div')
+    // massageblock.setAttribute('class','buttonMessageEdit')
     
+    // let buttonMessageDelete = document.createElement('div')
+    // massageblock.setAttribute('class','buttonMessageDelete')
+
+    // ATRIBUÇÃO PARA MONTAGEM DE DO BLOCO
+    
+    // divMessage.append(paragraph)
+    // divMassageblock.append(divMessage)
+    // divMessageButtons.append(buttonMessageEdit)
+    // divMessageButtons.append(buttonMessageDelete)
+    // divMassageblock.append(divMessageButtons)
 
     messageBlock.removeAttribute('hidden')    
     let paragraph = document.createElement('p')

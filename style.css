@@ -12,7 +12,7 @@ body{
 }
 
 .main{
-    background-image: url("https://guiaemguarapari.com.br/wp-content/uploads/2020/03/Fundo-WhatsApp-1.png");
+    /* background-image: url("https://guiaemguarapari.com.br/wp-content/uploads/2020/03/Fundo-WhatsApp-1.png"); */
 
     display: flex;
     flex-direction: column;
@@ -48,8 +48,9 @@ h1{
     padding: 1.2vw;    
 }
 
-.messages{            
-    min-height: 300px;
+.messages{   
+    background-image: url("https://guiaemguarapari.com.br/wp-content/uploads/2020/03/Fundo-WhatsApp-1.png");         
+    width: 100%;    
 }
 
 .massage-block{
@@ -104,7 +105,7 @@ button{
     border: solid 1.5px;
     border-radius: 6px 6px 0px 0px;
 
-    margin-top: 99px;
+    /* margin-top: 99px; */
     
     display: flex;
     align-items: flex-start;
