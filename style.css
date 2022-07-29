@@ -43,7 +43,7 @@ button{
 }
 /* ---------- / ---------- */
 
-/* ---------- CAMPO DE MENSAGENS ---------- */
+/* ---------- CABEÇALHO DO CHAT ---------- */
 .headerChat{
     background-color: var(--primary-green);
 
@@ -60,7 +60,9 @@ h1{
     color: #F2fbf9;
     padding: 1.2vw;    
 }
+/* ---------- / ---------- */
 
+/* ---------- CAMPO DE MENSAGENS ---------- */
 .messages{       
     width: 100%;    
     height: 320px;

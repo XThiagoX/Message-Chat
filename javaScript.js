@@ -39,7 +39,7 @@ sendMessage.addEventListener('click', () => {
     
     let buttonMessageDelete = document.createElement('button')
     buttonMessageDelete.setAttribute('class','buttonMessageDelete')
-    buttonMessageDelete.textContent = "Editar"
+    buttonMessageDelete.textContent = "Excluir"
 
     // ATRIBUÇÃO PARA MONTAGEM DE DO BLOCO
     let paragraph = document.createElement('p')
