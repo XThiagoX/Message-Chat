@@ -33,11 +33,11 @@ sendMessage.addEventListener('click', () => {
     let divMessageButtons = document.createElement('div')
     divMessageButtons.setAttribute('class','message-buttons')
 
-    let buttonMessageEdit = document.createElement('div')
+    let buttonMessageEdit = document.createElement('button')
     buttonMessageEdit.setAttribute('class','buttonMessageEdit')
     buttonMessageEdit.textContent = "Editar"
     
-    let buttonMessageDelete = document.createElement('div')
+    let buttonMessageDelete = document.createElement('button')
     buttonMessageDelete.setAttribute('class','buttonMessageDelete')
     buttonMessageDelete.textContent = "Editar"
 
@@ -53,7 +53,7 @@ sendMessage.addEventListener('click', () => {
     divMassageblock.append(divMessageButtons)
     messageField.append(divMassageblock)
 
-    messageBlock.removeAttribute('hidden')    
+    //messageBlock.removeAttribute('hidden')    
     // let paragraph = document.createElement('p')
     // paragraph.innerHTML = text.value   
     // tagP.append(paragraph) 
