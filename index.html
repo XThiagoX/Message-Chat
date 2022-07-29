@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./resetCSS.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- importação de font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Source+Code+Pro:ital,wght@1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Message Chat</title>
 </head>
 <body>
-    
+    <div class="main">
+        <!-- <div class="background"> -->
+            <div class="headerChat">
+                <h1>Histórico de Mensagens</h1>
+            </div>
+            <div class="messages">
+                <div class="massage-block" hidden >
+                    <div class="message">
+                        <!-- <p></p> -->
+                    </div>
+                    <div class="message-buttons">
+                        <button class="buttonMessageEdit">Editar</button>
+                        <button class="buttonMessageDelete">Excluir</button>
+                    </div>
+                </div>
+            </div>                        
+            <div class="keyboard">
+                <textarea name="textField" id="textarea" ></textarea>
+                <button class="send">Enviar</button>
+            </div>
+        <!-- </div> -->
+    </div>
+    <script src="./javaScript.js"></script>
 </body>
 </html>

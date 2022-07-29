@@ -1,0 +1,137 @@
+body{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+        
+    font-family: 'Comfortaa', cursive;
+    background-color: #fff;
+}
+
+.main{
+    background-image: url("https://guiaemguarapari.com.br/wp-content/uploads/2020/03/Fundo-WhatsApp-1.png");
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    border: 2px solid;
+    border-radius: 6px;
+
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    width: 70%;   
+}
+
+.background{
+    
+    
+}
+
+.headerChat{
+    background-color:  rgba(19, 173, 250, 0.325);
+    
+    padding-right: 1px;
+    margin-top: -1px;
+    width: 100%;
+
+}
+
+h1{
+    font-size: 2.2vw;
+    font-weight: bold;
+    color: #F2fbf9;
+    padding: 1.2vw;    
+}
+
+.messages{            
+    min-height: 300px;
+}
+
+.massage-block{
+    
+}
+
+.message{
+    background-color: #fff;
+
+    border: solid 1px;
+    border-radius: 6px;
+    
+    padding: 0.6vw 1vw;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+p{
+
+}
+
+.message-buttons{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 1vw;   
+}
+
+button{
+    border: none;
+    font-size: 1.6vw;
+    font-family: 'Comfortaa', cursive;
+}
+
+.buttonMessageEdit{
+    padding: 4px;
+    background-color: #F6A75D;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.buttonMessageDelete{
+    padding: 4px;
+    background: #F65D5D;
+    border-radius: 0px 4px 4px 0px;
+
+}
+
+.keyboard{    
+    background-color: rgba(19, 173, 250, 0.325);
+
+    border: solid 1.5px;
+    border-radius: 6px 6px 0px 0px;
+
+    margin-top: 99px;
+    
+    display: flex;
+    align-items: flex-start;
+    width: 100%;  
+        
+}
+
+textarea{
+    border: solid 0.5px rgb(4, 0, 0);
+    border-radius: 3px;
+    margin: 10px;   
+    width: 100%; 
+    height: 10.5vw;
+    /* background-color:red; */
+    /* border-color: #F65D5D; */
+    /* border: solid #F65D5D; */
+}
+
+.send{
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+
+    margin: 10px;
+    padding: 0.6vw 1vw;
+
+    background: rgba(3,155,229,1);
+    border-radius: 10px;
+}
+
+
