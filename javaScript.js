@@ -21,33 +21,35 @@ deleteMessage.addEventListener('click', () => {
 
 sendMessage.addEventListener('click', () => {  
     // CRIAÇÃO DO BLOCO QUE DEFINE A MENSAGEM
-    // let divMassageblock = document.createElement('div')
-    // massageblock.setAttribute('class','massage-block')
+    let divMassageblock = document.createElement('div')
+    divMassageblock.setAttribute('class','massage-block')
 
-    // let divMessage = document.createElement('div')
-    // massageblock.setAttribute('class','massage')
+    let divMessage = document.createElement('div')
+    divMessage.setAttribute('class','massage')
 
-    // let divMessageButtons = document.createElement('div')
-    // massageblock.setAttribute('class','message-buttons')
+    let divMessageButtons = document.createElement('div')
+    divMessageButtons.setAttribute('class','message-buttons')
 
-    // let buttonMessageEdit = document.createElement('div')
-    // massageblock.setAttribute('class','buttonMessageEdit')
+    let buttonMessageEdit = document.createElement('div')
+    buttonMessageEdit.setAttribute('class','buttonMessageEdit')
     
-    // let buttonMessageDelete = document.createElement('div')
-    // massageblock.setAttribute('class','buttonMessageDelete')
+    let buttonMessageDelete = document.createElement('div')
+    buttonMessageDelete.setAttribute('class','buttonMessageDelete')
 
     // ATRIBUÇÃO PARA MONTAGEM DE DO BLOCO
-    
-    // divMessage.append(paragraph)
-    // divMassageblock.append(divMessage)
-    // divMessageButtons.append(buttonMessageEdit)
-    // divMessageButtons.append(buttonMessageDelete)
-    // divMassageblock.append(divMessageButtons)
-
-    messageBlock.removeAttribute('hidden')    
     let paragraph = document.createElement('p')
     paragraph.innerHTML = text.value   
-    tagP.append(paragraph) 
+    tagP.append(paragraph)  
+    divMessage.append(tagP)
+    divMassageblock.append(divMessage)
+    divMessageButtons.append(buttonMessageEdit)
+    divMessageButtons.append(buttonMessageDelete)
+    divMassageblock.append(divMessageButtons)
+
+    messageBlock.removeAttribute('hidden')    
+    // let paragraph = document.createElement('p')
+    // paragraph.innerHTML = text.value   
+    // tagP.append(paragraph) 
     console.log(paragraphs.textContent)
     // tagP.textContent = paragraph.value   
     text.value = ""
